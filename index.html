@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To DoAPP</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/unnamed" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card card-hover">
+            <div class="card-header">
+                <h4>Add ToDo</h4>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <input id="input" class="column xlarge-12 small-12" placeholder="Design the landing page"></input>
+                    <button id="button" class="btn btn-rounded  gradient-black">Add</button>
+                </div>
+            </div>
+            <div class="card-footer"></div>
+        </div>
+        <div class="card card-hover">
+                <div class="card-header">
+                    <h4>ToDo List</h4>
+                </div>
+                
+                <div class="container">
+                    <div class="row">
+                        <ul id="todo"></ul>
+                    </div>
+                </div>
+                <div class="card-footer"></div>
+        </div>
+        <div class="card card-hover">
+                <div class="card-header">
+                    <h4>Completed ToDos</h4>
+                </div>
+                
+            <div class="container">
+                <div class="row" >
+                 <ul id="Completed"></ul>
+                </div>
+            </div>
+                <div class="card-footer"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

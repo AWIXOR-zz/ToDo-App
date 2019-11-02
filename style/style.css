@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.card {
+  margin-top: 75px;
+  text-align: center;
+}
+
+.card h4 {
+  font-size: 1.5em;
+  color: #5698da;
+}
+
+input {
+  border: 1px solid #5d93ca;
+  border-radius: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 1.2em;
+  color: slategray;
+}
+
+#button {
+  position: absolute;
+  margin-left: -75px;
+  margin-top: -5px;
+  height: 60px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding-bottom: 50px;
+}
+
+.button {
+  position: absolute;
+  margin-left: -150px;
+  margin-top: -5px;
+  height: 60px;
+}
+
+.buttuns i {
+  margin-left: 10px;
+}
+
+.delete {
+  font-size: 24px;
+}
+
+.delete:hover {
+  color: #e74c3c;
+}
+
+.edit {t
+  font-size: 24px;
+}
+
+.edit:hover {
+  color: #f1c40f;
+}
+
+.done {
+  font-size: 24px;
+}
+
+.done:hover {
+  color: #2ecc71;
+}
+/*# sourceMappingURL=style.css.map */
